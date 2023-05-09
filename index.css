@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main h1{
+    font-size: 70px;
+}
+
+main button{
+    padding: 2%;
+    border-radius: 20px;
+}
+
+main table{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-collapse: collapse;
+}
+
+main table, th, td {
+    border: 1px solid;
+  }
+
+  main table
