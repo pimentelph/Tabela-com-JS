@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.cdnfonts.com/css/co-text" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <title>TabJS</title>
+</head>
+
+<body>
+    
+    <main>
+        <h1>Tabela com JS</h1>
+        <p>Esse site consiste em uma tabela na qual você pode adicionar novas linhas na tabela a baixo. Feito em HTML, CSS e JavaScript. O funcionamento para aprovação e reprovação é a seguinte: Acima de 16 faltas é <span style="color: #DE412F">reprovado</span>, se a média de B1 mais B2 der acima de 7 está <span style="color: #10914F">aprovado</span>, se ficar a baixo de 7 ele ira para a recuperação final, se a nota da recuperação junto com a média de de B1 e B2 derem acima de 7, o aluno está <span style="color: #10914F">aprovado</span>, caso contrário está <span style="color: #DE412F">reprovado</span>.
+        </p>
+        <table>
+            <thead>
+                <th>Matrícula</th>
+                <th>Nome</th>
+                <th>Faltas</th>
+                <th>Nota B1</th>
+                <th>Nota B2</th>
+                <th>Média</th>
+                <th>Nota PF</th>
+                <th>Média Final</th>
+                <th>Situação</th>
+            </thead>
+
+        <tbody>
+            <td>123456789</td>
+            <td>Exemplo</td>
+            <td>.</td>
+            <td>.</td>
+            <td>.</td>
+            <td>.</td>
+            <td>.</td>
+            <td>.</td>
+            <td>.</td>
+        </tbody>
+        </table>
+
+        <button onclick = "inserirAluno()">
+            Adicionar informações
+        </button>
+    </main>
+    
+    <script src="index.js"></script>
+
+</body>
+
+</html>
